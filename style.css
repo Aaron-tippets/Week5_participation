@@ -1,0 +1,94 @@
+/* p{
+            background-color: purple;
+        color: blue;
+}    */
+body{
+    
+    background-color: chartreuse;
+    font-size: small;
+    font-family: helvetica;
+}
+
+/*p{
+    color:olive;
+    
+font-family:"times new roman", arial,helvetica, sans-serif;
+
+font-size: /*16px  ←pixle*/ 150%;
+
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 100px;
+    line-height: 125%;
+}*/
+
+h1,h2,h3{
+    
+    text-transform:uppercase;
+}
+h5 span{
+    color: beige;
+}
+
+h1 {
+    font-size: 375%;
+    font-weight: 800;
+    font-style: italic;
+    font-family: "times new roman";
+    text-align: center;
+    text-decoration:underline !important;
+    /* !important is frowned upon but it makes that the default*/
+    padding: 10px;
+    margin: 0px;
+    
+}
+h2{
+    border-style: dotted;
+    border-width: thick;
+    border-color:green;
+    padding-left: 15px;
+}
+h3{
+    border-bottom-style: double;
+    border-bottom-color: hotpink;
+    border-bottom-width: 15px;
+    width: 500px;
+    text-align: right;
+    padding: 15px;
+    margin: auto;
+}
+h4{
+    border-bottom-style: groove;
+    border-right-style: dashed;
+    border-top-style: dotted;
+    border-left-style: solid;
+    border-bottom-color:red;
+    background-color: #00ffff;
+    height:505px;
+    background-image: url(potato.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: repeat-y;
+    
+    
+}
+a{
+    color: yellow;
+    text-decoration: none;
+    background-color: aquamarine;
+    font-size: 24px;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+    background-color: aquamarine;
+    font-size: 24px;
+}
+
+#bgfirst{
+    text-shadow: 10px 10px #ff000f
+}
+    .firstclass{
+        background-color: beige
+}
